@@ -1,0 +1,29 @@
+# Carpetas generadas por Node.js
+node_modules/
+npm-debug.log
+
+# Directorio de archivos generados
+dist/
+build/
+
+# Archivos generados por herramientas de desarrollo
+.DS_Store
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.log
+
+# Dependiendo de tu entorno de desarrollo, es posible que desees incluir otros patrones de exclusión, como archivos temporales o configuraciones específicas del IDE.
+
+# Archivo .env (contiene variables de entorno, no debe rastrearse en Git)
+.env
+
+# Archivo de bloqueo (normalmente no debe rastrearse)
+package-lock.json
+yarn.lock
+
+# Historial de comandos en la terminal
+.history/
+
+# Archivos de configuración locales
+config/*.json
